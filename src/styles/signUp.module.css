@@ -1,0 +1,136 @@
+.body {
+    font-family: Nunito;
+    background-color: black;
+    background-image: url('../img/back-signUp.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Login Container  */
+
+.container {
+    width: 40%;
+    margin: 0 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    background-color: #0D215E;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px 50px;
+    width: 70%;
+}
+
+.form p {
+    width: 30%;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.cbContent {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.cb {
+    background-color: #1E5FCE;
+    width: 20px;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.input {
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    background-color: #1E5FCE;
+    width: 50%;
+    height: fit-content;
+}
+
+.timeContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    align-items: center;
+}
+
+.buttonContainer {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonSignup {
+    border-style: none;
+    background-color: #1E8CD8;
+    color: white;
+    font-size: 25px;
+    width: 45%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonCancel {
+    border-style: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    width: 45%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 440px) {
+
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .inputContainer {
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .inputContainer p {
+        font-size: 15px;
+    }
+
+    .buttonCancel,
+    .buttonSignup {
+        font-size: 20px;
+    }
+}

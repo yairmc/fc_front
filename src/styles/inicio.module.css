@@ -1,0 +1,96 @@
+.body {
+    font-family: Nunito;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/back-Inicio.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.title img {
+    width: 20%;
+    height: fit-content;
+}
+
+.titleText {
+    color: #fff;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagesInicio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.imagesInicio img {
+    width: 80%;
+    height: auto;
+}
+
+.text {
+    color: #fff;
+    font-size: 30px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.button {
+    background-color: #1E8CD8;
+    border-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 5px 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 440px) {
+    html {
+        background-size: cover;
+        background-color: #0D215E;
+    }
+
+    .title {
+        align-items: center;
+    }
+
+    .titleText {
+        font-size: 20px
+    }
+
+    .text {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+}
