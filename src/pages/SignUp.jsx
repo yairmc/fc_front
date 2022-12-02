@@ -53,11 +53,11 @@ const SignUp = () => {
                         </div>
                         <div className={style.inputContainer}>
                             <p>Contraseña:</p>
-                            <input className={style.input} name="password" type="text" id="newPassword" onChange={changeData} />
+                            <input className={style.input} name="password" type="password" id="newPassword" onChange={changeData} />
                         </div>
                         <div className={style.inputContainer}>
                             <p>Contraseña:</p>
-                            <input className={style.input} type="text" id="repeatPassword" />
+                            <input className={style.input} type="password" id="repeatPassword" />
                         </div>
                         <div className={style.inputContainer}>
                             <p>Direccion:</p>
