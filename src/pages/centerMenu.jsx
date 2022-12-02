@@ -11,8 +11,6 @@ import AuthContext from "../context/AuthContext";
 import UserCard from "../components/UserCard";
 import { fetchGetMail } from "../API/apiMail";
 
-
-
 const centerMenu = () => {
   const [userList, setUserList] = useState([]);
   const { userData } = useContext(AuthContext)
