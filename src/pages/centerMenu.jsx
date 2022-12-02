@@ -10,7 +10,6 @@ import AuthContext from "../context/AuthContext";
 
 import UserCard from "../components/UserCard";
 import { fetchGetMail } from "../API/apiMail";
-import { fetchUsers } from "../API/apiAuth";
 
 
 

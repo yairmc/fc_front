@@ -40,7 +40,6 @@ const userMenu = () => {
 
             <main className={style.main}>
                 <Perfil />
-
                 <div className={style.centerContent}>
                     <div className={style.info}>
                         <p>Selecciona un centro de acopio cercano a la cual quieres apoyar</p>
