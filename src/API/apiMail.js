@@ -27,3 +27,16 @@ export const fetchGetMail=async()=>{
         console.log(error);
     }
 }
+
+export const fetchEdeleteMail=async(id)=>{
+    try {
+        const result=await fetch(`https://fcback-production.up.railway.app/mail/${id}`, {
+            method: 'DELETE',
+            headers: { 'Content-Type': 'application/json' },
+        })
+        const data=await result.json();
+        console.log(data);
+    } catch (error) {
+        console.log(error);
+    }
+}
