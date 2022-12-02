@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { fetchUsers } from '../API/apiAuth';
 import { fetchEdeleteMail } from '../API/apiMail';
 
@@ -26,7 +26,6 @@ const UserCard = ({ item }) => {
         <div className={style.infoConteiner}>
             <p>{user}</p>
             <Link to="/informationUser" className={style.buttonSend} state={{ item, info }}>Mensaje</Link>
-            <button className={style.buttonCancel} onClick={deleteClick}>Borrar</button>
         </div>
     )
 }

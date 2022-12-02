@@ -59,5 +59,15 @@
     font-weight: bold;
     margin: 20px;
     font-size:20px;
-    padding:5px 10px;
+    padding:10px 50px;
+}
+
+.buttonCancel{
+    background-color:black;
+    border-radius:5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    margin: 20px;
+
 }
