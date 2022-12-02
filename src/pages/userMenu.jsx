@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom'
 import "../normalize.css"
 import style from "../styles/userMenu.module.css"
 
+import Perfil from '../components/Perfil'
 import icono from "../img/icono.png"
 import salir from "../img/salir.png"
 import house from "../img/casa.png"
-import Perfil from '../components/perfil'
+
 import grafica from "../img/grafica.png"
 import { fetchUsers } from '../API/apiAuth'
 import CenterCard from '../components/CenterCard'

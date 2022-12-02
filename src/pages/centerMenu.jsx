@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 import salir from "../img/salir.png"
 import users from "../img/usuarios.png";
-import Perfil from '../components/perfil'
+import Perfil from '../components/Perfil'
 import { useContext, useState } from "react";
 import AuthContext from "../context/AuthContext";
 
